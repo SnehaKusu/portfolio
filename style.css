@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA; /* Light Gray background */
+    color: #FFFFFF; /* White text color for contrast */
+  }
+  
+  nav {
+    background-color: #16213E; /* Deep Blue */
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #FF6F61; /* Accent color (Coral Red) on hover */
+  }
+  
+  /* Hero Section */
+ /* Hero Section */
+.hero {
+    background-color: #1A1A2E; /* Midnight Navy */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 20px;
+    text-align: left; /* Align text to the left */
+  }
+  .hero-image {
+    width: 500px; /* Increase the width */
+    height: 500px; /* Increase the height */
+    border-radius: 50%; /* Keeps it circular */
+    object-fit: cover; /* Ensures the image doesn’t stretch */
+    margin-bottom: 20px; /* Adds spacing below the image */
+    border: 3px solid #000; /* Optional: Add a border for emphasis */
+  }
+  
+  .hero .hero-content {
+    max-width: 60%; /* Limit the width of text content */
+    padding-left: 20px; /* Add some space between the image and text */
+  }
+  
+  .hero .hero-content h1 {
+    font-size: 3em;
+  }
+  
+  .hero .hero-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .hero .btn {
+    background-color: #FF6F61; /* Accent color (Coral Red) */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #FF5722; /* Slightly darker coral on hover */
+  }
+  
+  .hero img {
+    width: 250px; /* Adjust image size */
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #FFFFFF;
+    color: #16213E; /* Deep Blue */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #16213E; /* Deep Blue */
+    color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-cards .card {
+    background-color: #1A1A2E; /* Midnight Navy */
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+  }
+  
+  .project-cards .card h3 {
+    font-size: 1.5em;
+    color: #FF6F61; /* Accent color (Coral Red) */
+  }
+  
+  .project-cards .card p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .project-cards .card a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-cards .card a:hover {
+    color: #FF5722; /* Darker coral on hover */
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #EAEAEA; /* Light Gray */
+    color: #16213E; /* Deep Blue */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #16213E; /* Deep Blue */
+    color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #contact a {
+    color: #FF6F61; /* Accent color (Coral Red) */
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    color: #FF5722; /* Darker coral on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #16213E; /* Deep Blue */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
